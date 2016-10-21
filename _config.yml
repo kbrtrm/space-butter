@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               space butter
+tagline:             people doing things IN SPACE
+url:                 http://spacebutter.xyz
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Kevin Bertram
+  url:
+  email:
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
