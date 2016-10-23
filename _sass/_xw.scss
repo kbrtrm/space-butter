@@ -1,0 +1,32 @@
+.clueDiv { width:100%;  height:100%; }
+.liClue { text-decoration:none; color:black; left-margin: 10px; }
+.cwTable { background-color : black; }
+.cwRow { margin : 0%; color : black; height : 10px; background-color : white; }
+.cwCell { font-size: 30px; line-height: 36px; z-index: 20; margin : 0%; padding: 0; text-align : center; height : 42px; width : 42px; font-weight :bold; background-color : white; }
+.cwBlackCell {margin : 0%; text-align : center; height : 42px; width : 100% !important; background-color : black; }
+.cwNumber { xmargin-top: -12px; float :left; font-size: .5em; font-weight : bold; color : black; position: absolute; }
+.cwRow td { padding: 0; border-color: #000; }
+
+.container.xw {
+  max-width: 70em;
+  box-sizing: border-box;
+}
+
+#left {
+  width: 28em;
+  float: left;
+}
+
+#right {
+  width: 33em;
+  float: right;
+}
+
+#acrossContainer {
+  width: 49%;
+  float: left;
+}
+#downContainer {
+  width: 49%;
+  float: right;
+}

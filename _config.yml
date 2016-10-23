@@ -24,9 +24,14 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              
+  repo:
 
 # Gems
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+collections:
+  crosswords:
+    output: true
+    permalink: /crosswords/:path/

@@ -5,10 +5,14 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
+    {% elsif page.layout == "xw" %}
+      {{ page.title }} &middot; Crossword &middot; {{ site.title }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+
+
 
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
