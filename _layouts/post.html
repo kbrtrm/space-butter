@@ -3,9 +3,18 @@ layout: default
 ---
 
 <article class="post">
+  {% if page.feat_img %}
+    <img src="{{ page.feat_img }}" alt="">
+    {% if page.feat_img_caption %}
+      <small class="feat-cap">{{ page.feat_img_caption }}</small>
+    {% endif %}
+  {% endif %}
+
+
   <h1 class="post-title">{{ page.title }}</h1>
-  <h2>{{ page.subtitle }}</h2>
+  <h2 class="post-subtitle">{{ page.subtitle }}</h2>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+
   {{ content }}
 </article>
 

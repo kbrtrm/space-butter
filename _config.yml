@@ -3,9 +3,9 @@ permalink:           pretty
 
 # Setup
 title:               space butter
-tagline:             people doing things IN SPACE
+tagline:             cosmic churn
 url:                 http://spacebutter.xyz
-paginate:            1
+paginate:            3
 baseurl:             ""
 
 # Assets

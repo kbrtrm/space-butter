@@ -1,12 +1,18 @@
 ---
 layout: post
 title: Content Modeling
-subtitle: The Pancakes of the Art School Flapjack Stack
+subtitle: The Pancakes of the Flapjack Stack
+author: kb
+tags:
+  - web-development
+excerpt: We are going to try to figure out how we'd rebuild our school's website. We work for an art school. We—admittedly, know nothing, but we'll be publicly working through our ideas because it feels real...er here.
+feat_img: /public/images/fish.jpg
+feat_img_caption: "These fish are like content types: different, the same, aquatic"
 ---
 
 
 <div class="message">
-  We (YOU and I) are going to try to figure out how we'd rebuild our school's website. We work for an art school. We—admittedly, know nothing, but we'll be publicly working through our ideas because it feels real... er here.
+  We are going to try to figure out how we'd rebuild our school's website. We work for an art school. We—admittedly, know nothing, but we'll be publicly working through our ideas because it feels real... er here.
 </div>
 
 OK. So, it's been five years since the last site was "launched" and, well, now it's old. Not only is it old, but it a) doesn't work, b) remains uneditable by most of it's intended users, and c) is a breeding-ground for ownership conflict.

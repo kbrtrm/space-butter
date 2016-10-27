@@ -3,21 +3,30 @@ layout: default
 title: Home
 ---
 
-<img src="http://bestanimations.com/Site/Construction/under-construction-animated-gif.gif" alt="">
+<!-- <img src="http://bestanimations.com/Site/Construction/under-construction-animated-gif.gif" alt=""> -->
 
-<!-- <div class="posts">
+<div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <h2 class="post-subtitle">{{ post.subtitle }}</h2>
+    <div class="row">
+      {% if post.feat_img %}
+      <div class="col-sm-4">
+        <img src="{{ post.feat_img }}" alt="">
+      </div>
+      {% endif %}
+      <div class="{% if post.feat_img %} col-sm-8 {% else %} col-sm-12 {% endif %}">
+        <h2 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h2>
+        <!-- <h2 class="post-subtitle">{{ post.subtitle }}</h2> -->
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+        {{ post.excerpt }}
+      </div>
+    </div>
 
-    {{ post.content }}
   </article>
   {% endfor %}
 </div>
@@ -33,4 +42,4 @@ title: Home
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div> -->
+</div>
