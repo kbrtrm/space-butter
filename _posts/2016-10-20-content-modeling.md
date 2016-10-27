@@ -19,8 +19,26 @@ OK. So, it's been five years since the last site was "launched" and, well, now i
 
 ## Whose content is it?
 
-You can't be everything for everyone. The current site tries to do exactly that. The most important change we're considering is separating ownership based on audience (internal vs. external). In our case, we deem internal as those who already have a connection to the institution: current students, faculty, staff, etc. The external audience is primarily prospective students. These two groups have vastly different content needs.[^fn-sample_footnote]
+You can't be everything for everyone. The current site tries to do exactly that. The most important change we're considering is separating ownership based on audience (internal vs. external). In our case, we deem internal as those who already have a connection to the institution: current students, faculty, staff, etc. The external audience is primarily prospective students. These two groups have vastly different content needs.
+
+So, why not deliver relevant content to each?
+
+### External Users: Important Content
+
+* Degrees/Programs offered
+* Cost
+* Financial Aid Opportunities
+* School Rank/Accolades
+* Credit Transfer
+* Campus Life
+* Truth[^fn-sample_footnote]
+
+### Internal Users: Important Content
+
+*
+
+Though, it could be argued that external users would benefit from seeing a lot of the internal content—and I would agree! There is definitely overlap there. The key to all of this is that they're not mutually exclusive, they share and leverage the same content. They are two heads of the same fish.
 
 -----
 
-[^fn-sample_footnote]: I'm just testing footnotes.
+[^fn-sample_footnote]: This could be an entire post on it's own, and I certainly am not an expert on this, but when I was a prospective student, I just wanted to know what it _actually_ was like to be a student. You know, the truth—not anything obviously polished and marketed. Raw content. Actual students' social media, physical presence of the institution in the city, facutly's work outside of the classroom, etc.
