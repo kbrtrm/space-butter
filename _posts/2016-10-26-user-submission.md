@@ -3,7 +3,7 @@ layout: post
 title: "User Submission of Content: Present State/Desired State"
 subtitle: The disconnect of content ownership
 author: zk
-excerpt: "When content ownership is transferred from one party to another, it doesn't solve a problem."
+excerpt: ""
 ---
 
 
