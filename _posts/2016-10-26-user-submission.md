@@ -4,6 +4,8 @@ title: "User Submission of Content: Present State/Desired State"
 subtitle: The disconnect of content ownership
 author: zk
 excerpt: ""
+feat_img: /public/images/dog.jpg
+feat_img_caption: "Content creation should be an all-enveloping process for the owner"
 ---
 
 
@@ -31,3 +33,5 @@ This individual gathers all of these pieces and submits them to the online updat
   - (primarily a special email send; other requests include social media and placement on site)
 
 In this process, the individual submitting the event *has no direct access to the event content*, and is merely **handing off knowledge**. When updates or edits are required, the request has to go through the same process as it did upon initial event submission.
+
+While this example utilizes an event, the same pattern can be found when dealing with content updates on departmental and administrative pages across the entire site, faculty profile updates, featured student/alumni profile updates, faculty accomplishments, to name a few.
