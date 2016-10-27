@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "User Submission of Content: Present State/Desired State"
+title: "User Submission of Content: Present State"
 subtitle: The disconnect of content ownership
 author: zk
 excerpt: ""
